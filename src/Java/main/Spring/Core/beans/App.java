@@ -1,6 +1,8 @@
+package main.Spring.Core.beans;
+
 public class App {
     private Client client;
-    private ConsoleEventLogger eventLogger;
+    private EventLogger eventLogger;
     public static void main(String[] args) {
         App app = new App();
         app.client = new Client("1", "John Smith");
